@@ -1,0 +1,6 @@
+org\cansu\app\service\studio\movie\dto\MovieSaveDTO.class
+org\cansu\app\service\studio\movie\mapper\IMovieSaveMapper.class
+org\cansu\app\service\studio\movie\MoviePostServiceApp.class
+org\cansu\app\service\studio\movie\service\MovieService.class
+org\cansu\app\service\studio\movie\mapper\MovieSaveMapperImpl.class
+org\cansu\app\service\studio\movie\controller\MovieController.class
