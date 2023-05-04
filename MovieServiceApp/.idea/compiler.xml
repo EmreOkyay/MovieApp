@@ -13,13 +13,9 @@
         <module name="com-elif-library-schoolapp-repository" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="StudioAppRepositoryLib" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="StudioAppRepositoryLib" options="-parameters" />
       <module name="com-elif-library-schoolapp-repository" options="-parameters" />
     </option>
   </component>

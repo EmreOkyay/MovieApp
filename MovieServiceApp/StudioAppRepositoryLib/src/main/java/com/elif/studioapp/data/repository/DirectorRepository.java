@@ -18,8 +18,10 @@ import java.util.Optional;
 
 @Repository(BeanName.DIRECTOR_REPOSITORY)
 public class DirectorRepository implements IDirectorRepository {
-    private static final String FIND_BY_MOVIE_ID = "select * from get_directors_by_movie_id(:id)";
+    private static final String COUNT_SQL = "select count(*) from directors";
     private static final String SAVE_SQL = "call sp_insert_director(:directorNo, :firstName, :middleName, :familyName, :birthDate)";
+    private static final String FIND_BY_FIRST_NAME_SQL = "select * from directors where first_name = :firstName";
+    private static final String FIND_BY_FAMILY_NAME_SQL = "select * from directors where family_name = :familyName";
 
     private final NamedParameterJdbcTemplate m_namedParameterJdbcTemplate;
     private final IDirectorMapper m_directorMapper;
@@ -50,16 +52,39 @@ public class DirectorRepository implements IDirectorRepository {
     }
 
     @Override
-    public Optional<Director> findById(Long id)
+    public long count()
+    {
+        var counts = new ArrayList<Long>();
+
+        m_namedParameterJdbcTemplate.query(COUNT_SQL, rs -> {counts.add(rs.getLong(1));});
+
+        return counts.get(0);
+    }
+
+    @Override
+    public Iterable<Director> findDirectorsByFirstName(String firstName)
     {
         var paramMap = new HashMap<String, Object>();
         var directors = new ArrayList<Director>();
 
-        paramMap.put("id", id);
+        paramMap.put("firstName", firstName);
 
-        m_namedParameterJdbcTemplate.query(FIND_BY_MOVIE_ID, paramMap, (ResultSet rs) -> fillDirectors(rs, directors));
+        m_namedParameterJdbcTemplate.query(FIND_BY_FIRST_NAME_SQL, paramMap, (ResultSet rs) -> fillDirectors(rs, directors));
 
-        return directors.isEmpty() ? Optional.empty() : Optional.of(directors.get(0));
+        return directors;
+    }
+
+    @Override
+    public Iterable<Director> findDirectorsByFamilyName(String familyName)
+    {
+        var paramMap = new HashMap<String, Object>();
+        var directors = new ArrayList<Director>();
+
+        paramMap.put("familyName", familyName);
+
+        m_namedParameterJdbcTemplate.query(FIND_BY_FAMILY_NAME_SQL, paramMap,(ResultSet rs) -> fillDirectors(rs, directors));
+
+        return directors;
     }
 
     @Override
@@ -74,6 +99,12 @@ public class DirectorRepository implements IDirectorRepository {
     }
 
     // ---------------------------------------------------------------------------- //
+
+
+    @Override
+    public Optional<Director> findById(Long aLong) {
+        throw new UnsupportedOperationException();
+    }
 
     @Override
     public void deleteAll() {
@@ -92,11 +123,6 @@ public class DirectorRepository implements IDirectorRepository {
 
     @Override
     public boolean existsById(Long aLong) {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public long count() {
         throw new UnsupportedOperationException();
     }
 

@@ -62,3 +62,12 @@ as '
                  where mtd.director_id = id;
 end
     '  language plpgsql;
+
+create or replace procedure sp_insert_director(bigint, varchar(100), varchar(100), varchar(100), date)
+language plpgsql
+as '
+	begin
+		insert into directors (director_id, first_name, middle_name, last_name, birth_date)
+            values ($1, $2, $3, $4, $5);
+    end
+';

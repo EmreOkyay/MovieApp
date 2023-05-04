@@ -1,0 +1,12 @@
+org\cansu\app\service\studio\director\mapper\IDirectorMapper.class
+org\cansu\app\service\studio\director\dto\MoviesDTO.class
+org\cansu\app\service\studio\director\dto\DirectorDTO.class
+META-INF\services\org.cansu.app.service.studio.director.mapper.IDirectorMapper
+org\cansu\app\service\studio\director\controller\DirectorController.class
+org\cansu\app\service\studio\director\dto\DirectorsDTO.class
+org\cansu\app\service\studio\director\DirectorGetServiceApp.class
+org\cansu\app\service\studio\director\dto\CountDTO.class
+org\cansu\app\service\studio\director\service\DirectorService.class
+org\cansu\app\service\studio\director\dto\MovieDTO.class
+org\cansu\app\service\studio\director\configuration\MapperConfig.class
+org\cansu\app\service\studio\director\mapper\MovieMapperImpl.class

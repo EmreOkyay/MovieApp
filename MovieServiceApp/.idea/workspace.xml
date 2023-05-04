@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4feacf7-e078-484f-bc27-d2d4db56391c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/dto/DirectorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/dto/DirectorsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieGetService/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/MovieGetServiceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/DirectorGetServiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/configuration/MapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/configuration/MapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/controller/DirectorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/dto/CountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/dto/CountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/dto/MovieDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/dto/MoviesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/mapper/IMovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/mapper/IDirectorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/movie/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/main/java/org/cansu/app/service/studio/director/service/DirectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/src/test/java/org/cansu/app/service/studio/movie/AppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/src/test/java/org/cansu/app/service/studio/movie/MovieGetServiceAppTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/META-INF/services/org.cansu.app.service.studio.movie.mapper.IMovieMapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/MovieGetServiceApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/configuration/MapperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/dto/CountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/dto/MovieDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/dto/MoviesDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectorGetService/target/classes/org/cansu/app/service/studio/movie/mapper/MovieMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/.idea/MovieGetService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/src/test/java/org/cansu/app/service/studio/movie/AppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectorGetService/src/test/java/org/cansu/app/service/studio/director/DirectorGetServiceAppTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/target/classes/org/cansu/app/service/studio/movie/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/target/classes/org/cansu/app/service/studio/movie/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieGetService/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/MovieGetService/target/classes/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieServiceApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/dal/DirectorServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/dal/DirectorServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/repository/DirectorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/repository/DirectorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/repository/IDirectorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/src/main/java/com/elif/studioapp/data/repository/IDirectorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/dal/DirectorServiceHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/dal/DirectorServiceHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/repository/DirectorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/repository/DirectorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/repository/IDirectorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/classes/com/elif/studioapp/data/repository/IDirectorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/com-elif-library-schoolapp-repository-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/com-elif-library-schoolapp-repository-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/generated-sources/annotations/com/elif/studioapp/data/mapper/DirectorMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/generated-sources/annotations/com/elif/studioapp/data/mapper/DirectorMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudioAppRepositoryLib/target/generated-sources/annotations/com/elif/studioapp/data/mapper/MovieMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudioAppRepositoryLib/target/generated-sources/annotations/com/elif/studioapp/data/mapper/MovieMapperImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PLX6v7zoRDgUGLpQQVstt4McCT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/MovieApp/MovieServiceApp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4feacf7-e078-484f-bc27-d2d4db56391c" name="Changes" comment="" />
+      <created>1683237165066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683237165066</updated>
+    </task>
+    <servers />
+  </component>
+</project>

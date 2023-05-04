@@ -22,9 +22,19 @@ public class DirectorServiceHelper {
         m_directorMapper = directorMapper;
     }
 
-    public Optional<Director> findDirectorByMovieId(Long id)
+    public long count()
     {
-        return m_directorRepository.findById(id);
+        return m_directorRepository.count();
+    }
+
+    public Iterable<Director> findDirectorsByFirstName(String firstName)
+    {
+        return m_directorRepository.findDirectorsByFirstName(firstName);
+    }
+
+    public Iterable<Director> findDirectorsByFamilyName(String familyName)
+    {
+        return m_directorRepository.findDirectorsByFamilyName(familyName);
     }
 
     public DirectorSave saveDirector(DirectorSave directorDTO)
